@@ -688,22 +688,6 @@
       position: relative;
       z-index: 1;
     }
-    .meta-title-highlight {
-      position: absolute;
-      bottom: 0.18em;
-      left: 0;
-      right: 0;
-      height: 0.35em;
-      background: linear-gradient(120deg, var(--gold-light), var(--gold));
-      opacity: 0.55;
-      z-index: 0;
-      transform-origin: left;
-      transform: scaleX(0);
-      transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.3s;
-    }
-    .meta-section.visible .meta-title-highlight {
-      transform: scaleX(1);
-    }
     .meta-subtitle {
       font-size: 1.05rem;
       color: var(--text-light);
@@ -1157,7 +1141,7 @@
 
       <div class="meta-title-wrapper">
         <h2 class="meta-title">
-          Nuestra <em>Meta</em><span class="meta-title-highlight"></span>
+          Nuestra <em>Meta</em>
         </h2>
       </div>
 
